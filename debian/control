@@ -1,0 +1,27 @@
+Source: python-wrapt
+Section: python
+Priority: optional
+Standards-Version: 4.5.0
+Maintainer: Wong Hoi Sing Edison <hswong3i@pantarei-design.com>
+Homepage: https://github.com/GrahamDumpleton/wrapt/tags
+Vcs-Browser: https://github.com/alvistack/GrahamDumpleton-wrapt
+Vcs-Git: https://github.com/alvistack/GrahamDumpleton-wrapt.git
+Build-Depends:
+ debhelper,
+ debhelper-compat (= 10),
+ dh-python,
+ fdupes,
+ python3-dev,
+ python3-pip,
+
+Package: python3-wrapt
+Architecture: amd64
+Description: Module for decorators, wrappers and monkey patching
+ The aim of the wrapt module is to provide a transparent object proxy for
+ Python, which can be used as the basis for the construction of function
+ wrappers and decorator functions.
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+ ${python3:Depends},
+ python3,
