@@ -1,0 +1,5 @@
+python-wrapt source: file-without-copyright-information
+python-wrapt source: no-debian-changes
+python-wrapt source: source-contains-prebuilt-windows-binary
+python-wrapt source: source-is-missing
+python-wrapt source: source-package-encodes-python-version
