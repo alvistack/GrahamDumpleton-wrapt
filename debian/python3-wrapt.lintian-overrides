@@ -1,0 +1,4 @@
+python3-wrapt: copyright-without-copyright-notice
+python3-wrapt: initial-upload-closes-no-bugs
+python3-wrapt: no-manual-page
+python3-wrapt: zero-byte-file-in-doc-directory
